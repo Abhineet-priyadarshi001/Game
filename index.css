@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background-color: #CADCAE;
+}
+
+.button1{
+    background-color: #EDA35A;
+    font-size: medium;
+    width: 130px;
+    height: 50px;
+    margin: 20px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 100px;
+    color: #fee0cc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 300px;
+    border: none;
+    cursor: pointer;
+    margin-top: 70px;
+}
+
+.button2{
+    background-color: #EDA35A;
+    font-size: medium;
+    width: 130px;
+    height: 50px;
+    margin: 20px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 100px;
+    color:#fee0cc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 450px;
+    border: none;
+    cursor: pointer;
+    margin-top: 70px;
+}
+
+.button3{
+    background-color: #EDA35A;
+    font-size: medium;
+    width: 130px;
+    height: 50px;
+    margin: 20px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 100px;
+    color: #fee0cc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 600px;
+    border: none;
+    cursor: pointer;
+    margin-top: 70px;
+}
+
+.button1:hover{
+    background-color: #FFF2EF;
+}
+
+.button3:hover{
+    background-color: #FFF2EF;
+}
+
+.button2:hover{
+    background-color: #FFF2EF;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 100vh;
+   
+}
+p {
+      font-size: 24px; 
+      padding: 10px 30px;
+      border-radius: 12px;
+      color: #b77a51;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      
+    }
+
+.win {
+  color: green;
+  font-weight: bold;
+}
+
+.lose {
+  color: red;
+  font-weight: bold;
+}
+
+.draw {
+  color: rgb(57, 53, 44);
+  font-weight: bold;
+}
