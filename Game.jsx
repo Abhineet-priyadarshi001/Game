@@ -20,13 +20,7 @@ function Game(){
     }
 
 
-    // function Computer(){
-    //     const randomchoice = Tools[Math.floor(Math.random() * Tools.length)]
-    //     console.log(randomchoice)
-    //     setComputerChoice(randomchoice)
-    //     console.log(computerChoice)
-    //     determineWinner()
-    // }
+    
 
     const determineWinner = (player , computer) =>{
         if(player === computer){
